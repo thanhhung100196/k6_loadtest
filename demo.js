@@ -6,7 +6,7 @@ sleep(1);
 import { sleep } from 'k6';
 
 export default function () {
-  const url = 'https://alpha.conative.ai';
+  const url = 'https://alpha.conative.ai/sign-in';
   const payload = {
     username: 'demo@contaive.ai',
     password: 'Conative@ai2022'
